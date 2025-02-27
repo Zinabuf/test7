@@ -20,6 +20,6 @@ data(tar_snp.bim)
 }
 \description{
 This dataset follows the standard PLINK .bim format and contains SNP-related information
-for the discovery dataset, including chromosome ID, SNP ID, and allele details.
+for the target dataset, including chromosome ID, SNP ID, and allele details.
 }
 \keyword{datasets}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{bp_dis_cov}
 \alias{bp_dis_cov}
-\title{A phenotype data from the discovery dataset containing binary phenotype trated as exposure for the proposed directions of causations.}
+\title{A phenotype data from the discovery dataset containing binary phenotype trated as exposure for the proposed causal directions.}
 \format{
 A data frame with 800 rows and 19 columns:
 \describe{

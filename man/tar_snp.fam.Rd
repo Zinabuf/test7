@@ -20,6 +20,6 @@ data(tar_snp.fam)
 }
 \description{
 This dataset follows the standard PLINK .fam format and contains family structure
-and phenotype information for individuals in the discovery dataset.
+and phenotype information for individuals in the target dataset.
 }
 \keyword{datasets}

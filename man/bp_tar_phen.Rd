@@ -10,7 +10,7 @@ A data frame with 800 rows and 3 columns:
 \item{Family ID}{Family identification number}
 \item{Individual ID}{Individual identification number}
 \item{Binary outcome}{A binary outcome (0=controls, 1=cases)}
-#' }
+}
 }
 \usage{
 data(bp_tar_phen)
