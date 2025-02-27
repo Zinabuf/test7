@@ -20,18 +20,8 @@ Load the library
 library(GCIM)
 ~~~
 
-Data preparation for input data files
-
-The data preparation follows: All data files should be split into two files for discovery and target data including Genetic data, Outcome(phenotype data), exposure(environmental data), and confounder variables. 
-
-Genetic data 
-
-The genetic data should be in Plink binary format(.bed, .bim, and .fam). Then it should be split into the discovery dataset(ideally 80% of the data ) and the target dataset(the remaining 20% of the data). 
-
-Outcome data, exposure or environmental variables, and confounder variables are also split in proportions similar to those above and are compatible with the Plink data format. 
-    #outcome should contain three columns ( FID, IID, and phenotype Value) and the phenotype value for case-control data should be 1 for control and 2 for the case and in the discovery dataset, while in the target dataset, it should be 0 for controls and 1 for cases.
-    #the exposure should contain at least 19 columns (FID, IID, and exposure values, confounder 1 confounder1, ...confounder16)
-Depending on the type of outcome variables, the outcome, exposure, and confounder variable or other covariate data should be split into the discovery dataset(ideally 80% of the data ) and the target dataset(the remaining 20% of the data). 
+**Data preparations**
+The dataset is divided into **discovery (80%)** and **target (20%)** subsets, ensuring consistency across genetic, outcome, exposure, and confounder data for genome-wide environment interaction analysis (GWEIS) and genome-wide analysis. Genetic data, stored in **PLINK binary format** (`.bed`, `.bim`, `.fam`), is split accordingly using PLINK functions. The outcome variable should include **FID, IID, and phenotype values**, where case-control labels follow PLINK conventions: **1 = Control, 2 = Case** in the discovery dataset and **0 = Control, 1 = Case** in the target dataset. Exposure and confounder variables are formatted into at least or **19 columns** (**FID, IID, exposure, confounder1–16**) and partitioned in the same proportions. This structured approach ensures compatibility across all data types, maintaining alignment for accurate estimation of SGxE interactions.
 
 
 A quick guide
