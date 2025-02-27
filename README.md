@@ -46,15 +46,15 @@ plink_path <- "<plink_path>/plink2"
 Set the proposed directions and the reverse direction based on the type of outcome variables. Depending on the type of outcome variable, whether binary or quantitative, step-by-step tests can be conducted as a one-time process for one-direction tests.
 for instance, if you have a binary outcome with a quantitative exposure variable do the following steps.
 A. Proposed causal directions as:
-- Step 1: conduct b_GWEIS
-- Step 2: conduct q_GWAS
+- Step 1: conduct b_gweis
+- Step 2: conduct q_gwas
 - Step 3: Compute prs_score
-- Step 4: compute a regression using GCIM_b
+- Step 4: compute a regression using gcim_b
 B. The reverse causal direction
-- Step 1: conduct q_GWEIS
-- Step 2: conduct b_GWAS
+- Step 1: conduct q_gweis
+- Step 2: conduct b_gwas
 - Step 3: Compute prs_score
-- Step 4: compute a regression using GCIM_q
+- Step 4: compute a regression using gcim_q
 Compare the statistical test results between the proposed and reverse causal directions and declare the correct directions.
 Input data
 
@@ -72,7 +72,7 @@ Start analysis
  b <- q_gweis(plink_path, dis_snp, qp_dis_phen, qp_dis_cov)
    ~~~
 
-** Performing GWAS**
+**Performing GWAS**
 
    ~~~
  c <- b_gwas(plink_path, dis_snp, bp_dis_cov)
