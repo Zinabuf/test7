@@ -1,4 +1,4 @@
-#' Perform Regression Analysis for GCIM.
+#' Perform Regression Analysis for GCIM with quantitative outcome.
 #'
 #' @param bp_tar_phen File path for the target phenotype data.
 #' @param bp_tar_cov File path for the target covariate data.
@@ -34,7 +34,7 @@ gcim_q <- function(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounde
   regression_data <- cbind(regression_data, confounders)
 
   # Fit the regression model using all variables
-  model_formula <- as.formula(paste("Outcome ~ Add_PRS + Int_PRS + Cov_PRS + Int_PRS:Cov_PRS +", paste(names(confounders), collapse = " + ")))
+  model_formula <- as.formula(paste("Outcome ~ Add_PRS + Int_PRS + Covariate_Pheno + Int_PRS:Cov_PRS +", paste(names(confounders), collapse = " + ")))
   model <- lm(model_formula, data = regression_data)
 
   # Return model summary

@@ -1,7 +1,7 @@
 #' PLINK .bim file for SNP information
 #'
 #' This dataset follows the standard PLINK .bim format and contains SNP-related information
-#' for the discovery dataset, including chromosome ID, SNP ID, and allele details.
+#' for the target dataset, including chromosome ID, SNP ID, and allele details.
 #'
 #' @format A data frame with 6 columns:
 #' \describe{

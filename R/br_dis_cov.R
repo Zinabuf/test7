@@ -10,7 +10,7 @@
 #'   \item{Family ID}{Family identification number}
 #'   \item{Individual ID}{Individual identification number}
 #'   \item{Binary outcome}{A binary outcome (1=controls, 2=cases)}
-#'   #' }
+#'   }
 #'
 #' @usage data(br_dis_cov)
 #' @docType data

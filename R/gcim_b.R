@@ -1,4 +1,4 @@
-#' Perform Regression Analysis for GCIM.
+#' Perform Regression Analysis for GCIM with binary outcome.
 #'
 #' @param bp_tar_phen File path for the target phenotype data.
 #' @param bp_tar_cov File path for the target covariate data.
@@ -8,7 +8,7 @@
 #' @param Confounders Data frame of additional confounders.
 #' @return Summary of the regression model.
 #' @export
-gcim_bbp <- function(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders) {
+gcim_b <- function(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders) {
   temp_dir <- tempdir()  
   # Load phenotype and covariate data
   outcome_bp_data <- read.table("bp_tar_phen", header = TRUE, stringsAsFactors = FALSE)
@@ -34,7 +34,7 @@ gcim_bbp <- function(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confoun
   regression_data <- cbind(regression_data, confounders)
 
   # Fit the regression model using all variables
-  model_formula <- as.formula(paste("Outcome ~ Add_PRS + Int_PRS + Cov_PRS + Int_PRS:Cov_PRS +", paste(names(confounders), collapse = " + ")))
+  model_formula <- as.formula(paste("Outcome ~ Add_PRS + Int_PRS + Covariate_Pheno + Int_PRS:Cov_PRS +", paste(names(confounders), collapse = " + ")))
   model <- glm(model_formula, family = binomial(), data = regression_data)
 
   # Return model summary

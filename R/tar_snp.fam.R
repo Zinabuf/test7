@@ -1,7 +1,7 @@
 #' PLINK .fam file for family and phenotype information
 #'
 #' This dataset follows the standard PLINK .fam format and contains family structure 
-#' and phenotype information for individuals in the discovery dataset.
+#' and phenotype information for individuals in the target dataset.
 #'
 #' @format A data frame with 6 columns:
 #' \describe{
