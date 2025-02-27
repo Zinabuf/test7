@@ -21,13 +21,13 @@ library(GCIM)
 ~~~
 
 **Data preparations**
-The dataset is divided into **discovery (80%)** and **target (20%)** subsets, ensuring consistency across genetic, outcome, exposure, and confounder data for genome-wide environment interaction analysis (GWEIS) and genome-wide analysis. Genetic data, stored in **PLINK binary format** (`.bed`, `.bim`, `.fam`), is split accordingly using PLINK functions. The outcome variable should include **FID, IID, and phenotype values**, where case-control labels follow PLINK conventions: **1 = Control, 2 = Case** in the discovery dataset and **0 = Control, 1 = Case** in the target dataset. Exposure and confounder variables are formatted into at least or **19 columns** (**FID, IID, exposure, confounder1–16**) and partitioned in the same proportions. This structured approach ensures compatibility across all data types, maintaining alignment for accurate estimation of SGxE interactions.
+The dataset is divided into **discovery (80%)** and **target (20%)** subsets, ensuring consistency across genetic, outcome, exposure, and confounder data. Genetic data, stored in **PLINK binary format** (`.bed`, `.bim`, `.fam`). The outcome variable should include **FID, IID, and phenotype values**, where case-control labels follow PLINK conventions: **1 = Control, 2 = Case** in the discovery dataset and **0 = Control, 1 = Case** in the target dataset. Exposure and confounder variables are formatted into at least **19 columns** (**FID, IID, exposure, confounder1–16**) and partitioned in the same proportions. This structured approach ensures compatibility across all data types, maintaining alignment to accurately estimate GxE interactions.
 
 
 A quick guide
 
 GCIM analysis uses PLink2 to analyze discovery data, and the package is compatible with the Linux operating system. 
-1. download the plink2 from the Plink website and specify the executable Plink file path.
+1. download the plink2 from the [Plink](https://s3.amazonaws.com/plink2-assets/alpha6) website and specify the executable Plink file path.
    
 ~~~
 plink_path <- "<plink_path>/plink2"
