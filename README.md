@@ -27,7 +27,7 @@ Genetic data
 The genetic data should be in Plink binary format(.bed, .bim, and .fam). Then it should be split into the discovery dataset(ideally 80% of the data ) and the target dataset(the remaining 20% of the data). 
 
 Outcome data, exposure or environmental variables, and confounder variables are also split in proportions similar to those above and are compatible with the Plink data format. 
-    #outcome should contain three columns ( FID, IID, and phenotype Value) and the phenotype value for case-control data should be 1 for control and 2 for case and in the target dataset, it should be 0 for controls and 1 for cases.
+    #outcome should contain three columns ( FID, IID, and phenotype Value) and the phenotype value for case-control data should be 1 for control and 2 for the case and in the discovery dataset, while in the target dataset, it should be 0 for controls and 1 for cases.
     #the exposure should contain at least 19 columns (FID, IID, and exposure values, confounder 1 confounder1, ...confounder16)
 Depending on the type of outcome variables, the outcome, exposure, and confounder variable or other covariate data should be split into the discovery dataset(ideally 80% of the data ) and the target dataset(the remaining 20% of the data). 
 
