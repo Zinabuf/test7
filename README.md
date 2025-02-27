@@ -102,4 +102,5 @@ f <- gcim_b(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 g <- gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
    ~~~
 
-$red[zinabu]
+
+<code style="color : name_color">text</code>
