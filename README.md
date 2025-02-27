@@ -103,4 +103,3 @@ g <- gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
    ~~~
 
 
-<code style="color : name_color">text</code>
