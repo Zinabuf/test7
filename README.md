@@ -79,7 +79,7 @@ All the input data should be prepared with the following data dimensions
 **Compute PRS**
 
    ~~~
- e <- prs_score(plink_path, tar_snp)
+ e <- prs_scores(plink_path, tar_snp)
    ~~~
 
 **Compute GCIM for the required directions**
