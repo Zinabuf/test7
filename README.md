@@ -69,7 +69,7 @@ All the input data should be prepared with the following data dimensions
 **Performing GWEIS**
 
    ~~~
-  a <- b_gweis(plink_path, dis_snp, bp_dis_phen, bp_dis_cov)
+ a <- b_gweis(plink_path, dis_snp, bp_dis_phen, bp_dis_cov)
    ~~~
 
    ~~~
@@ -102,9 +102,4 @@ f <- gcim_b(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 g <- gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
    ~~~
 
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
 
