@@ -48,23 +48,23 @@ for instance, if you have a binary outcome with a quantitative exposure variable
 
 **A. Proposed causal directions**
 
-- Step 1: conduct b_gweis
-- Step 2: conduct q_gwas
+- Step 1: Conduct b_gweis
+- Step 2: Conduct q_gwas
 - Step 3: Compute prs_score
-- Step 4: compute a regression using gcim_b
+- Step 4: Compute a regression using gcim_b
   
 **B. The reverse causal direction**
 
-- Step 1: conduct q_gweis
-- Step 2: conduct b_gwas
+- Step 1: Conduct q_gweis
+- Step 2: Conduct b_gwas
 - Step 3: Compute prs_score
-- Step 4: compute a regression using gcim_q
+- Step 4: Compute a regression using gcim_q
 Compare the statistical test results between the proposed and reverse causal directions and declare the correct directions.
 Input data
 
 All the input data should be prepared with the following data dimensions
 
-Start analysis
+**Start analysis**
 
 **Performing GWEIS**
 
@@ -102,5 +102,9 @@ f <- gcim_b(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 g <- gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
    ~~~
 
-
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
 
