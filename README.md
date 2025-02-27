@@ -1,4 +1,4 @@
-# GCIMP
+# GCIM
 The genetic causality inference model(GCIM) is a statistical method for detecting the direction of causation in GxE interaction studies. 
 
 - 
@@ -15,9 +15,11 @@ install_github("zinabuf/GCIM")
 ~~~
 
 Load the library
+
 ~~~
 library(GCIM)
 ~~~
+
 Data preparation for input data files
 
 The data preparation follows: All data files should be split into two files for discovery and target data including Genetic data, Outcome(phenotype data), exposure(environmental data), and confounder variables. 
@@ -39,6 +41,7 @@ GCIM analysis uses PLink2 to analyze discovery data, and the package is compatib
    
 ~~~
 plink_path <- "<plink_path>/plink2"
+~~~
 
 Set the proposed directions and the reverse direction based on the type of outcome variables. Depending on the type of outcome variable, whether binary or quantitative, step-by-step tests can be conducted as a one-time process for one-direction tests.
 for instance, if you have a binary outcome with a quantitative exposure variable do the following steps.
