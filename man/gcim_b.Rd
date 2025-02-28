@@ -2,7 +2,7 @@
 % Please edit documentation in R/gcim_b.R
 \name{gcim_b}
 \alias{gcim_b}
-\title{Perform Regression Analysis for GCIM with binary outcome.}
+\title{Perform regression analysis for GCIM with binary outcome.}
 \usage{
 gcim_b(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 }
@@ -23,5 +23,5 @@ gcim_b(bp_tar_phen, bp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 Summary of the regression model.
 }
 \description{
-Perform Regression Analysis for GCIM with binary outcome.
+Perform regression analysis for GCIM with binary outcome.
 }

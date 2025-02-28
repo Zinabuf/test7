@@ -3,7 +3,7 @@
 \docType{data}
 \name{br_tar_phen}
 \alias{br_tar_phen}
-\title{A phenotype data file from target dataset, containing a binary outcome treated as a binary exposure in the reverse direction of causations}
+\title{A phenotype data file from target dataset, containing a binary outcome treated as a binary exposure in the reverse causal directions.}
 \format{
 A data frame with 800 rows and 19 columns:
 \describe{
@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(br_tar_phen)
 }
 \description{
-This dataset contains phenotypic data for the covariate information for individuals in the target dataset,
-for a binary phenotype for the outcome, which is treated as a binary exposure and covariates .
+This dataset contains phenotypic data for the covariate information of individuals in the target dataset,
+including various confounders.
 }
 \keyword{datasets}

@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(br_dis_phen)
 }
 \description{
-This dataset contains phenotype information for individuals in the discovery dataset,
-for a binary outcome treated as a binary exposure in the reverse direction.
+This dataset contains phenotype information of individuals in the discovery dataset,
+including various confounders.
 }
 \keyword{datasets}

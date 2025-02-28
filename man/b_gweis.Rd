@@ -2,7 +2,7 @@
 % Please edit documentation in R/b_gweis.R
 \name{b_gweis}
 \alias{b_gweis}
-\title{Perform GWEIS for binary outcome and exposure variables.}
+\title{Perform GWEIS for binary outcome variables.}
 \usage{
 b_gweis(plink_path, dis_snp, bp_dis_phen, bp_dis_cov)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/q_gwas.R
 \name{q_gwas}
 \alias{q_gwas}
-\title{Perform GWAS for covariates.}
+\title{Perform GWAS for quantitative covariates.}
 \usage{
 q_gwas(plink_path, dis_snp, qp_dis_cov)
 }
@@ -19,5 +19,5 @@ q_gwas(plink_path, dis_snp, qp_dis_cov)
 None. Results are saved to files.
 }
 \description{
-Perform GWAS for covariates.
+Perform GWAS for quantitative covariates.
 }

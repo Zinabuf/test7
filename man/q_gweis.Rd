@@ -2,7 +2,7 @@
 % Please edit documentation in R/q_gweis.R
 \name{q_gweis}
 \alias{q_gweis}
-\title{Perform GWEIS for quantitative outcome and quantitative exposure variables.}
+\title{Perform GWEIS for quantitative outcome variables.}
 \usage{
 q_gweis(plink_path, dis_snp, qp_dis_phen, qp_dis_cov)
 }

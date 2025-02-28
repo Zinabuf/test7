@@ -3,7 +3,7 @@
 \docType{data}
 \name{qr_tar_phen}
 \alias{qr_tar_phen}
-\title{Covariate data file for discovery dataset of the covariate with quantitative phenotype for the reverse}
+\title{A phenotype data file from the target dataset, containing the quantitative outcome treated as an exposure for the reverse direction.}
 \format{
 A data frame with 800 rows and 19 columns:
 \describe{
@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(qr_tar_phen)
 }
 \description{
-This dataset contains covariate information for individuals in the target dataset,
-including various confounders for a quantitative phenotype of the quantiative ciovariate for the reverse direction of causation.
+This dataset contains covariate information of individuals in the target dataset,
+including various confounders.
 }
 \keyword{datasets}

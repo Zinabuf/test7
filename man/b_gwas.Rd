@@ -2,7 +2,7 @@
 % Please edit documentation in R/b_gwas.R
 \name{b_gwas}
 \alias{b_gwas}
-\title{Perform GWAS for covariates.}
+\title{Perform GWAS for binary covariates.}
 \usage{
 b_gwas(plink_path, dis_snp, bp_dis_cov)
 }
@@ -19,5 +19,5 @@ b_gwas(plink_path, dis_snp, bp_dis_cov)
 None. Results are saved to files.
 }
 \description{
-Perform GWAS for covariates.
+Perform GWAS for binary covariates.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{qp_tar_cov}
 \alias{qp_tar_cov}
-\title{Covariate Data File for Discovery Dataset with Binary phenotype}
+\title{A phenotype data from the target dataset containing quantitative phenotype trated as exposure for the proposed causal directions.}
 \format{
 A data frame with 800 rows and 19 columns:
 \describe{
@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(qp_tar_cov)
 }
 \description{
-This dataset contains covariate information for individuals in the target dataset,
-including various confounders for a quantitative phenotype for the outcome.
+This dataset contains covariate information of individuals in the target dataset,
+including various confounders.
 }
 \keyword{datasets}

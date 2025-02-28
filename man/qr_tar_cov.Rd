@@ -3,7 +3,7 @@
 \docType{data}
 \name{qr_tar_cov}
 \alias{qr_tar_cov}
-\title{Covariate data file for target dataset of the covariate with quantitative outcomes for the reverse direction of causation}
+\title{A phenotype data file from the target dataset, containing the quantitative exposure treated as an outcomes for the reverse direction.}
 \format{
 A data frame with 800 rows and 3 columns:
 \describe{
@@ -16,7 +16,6 @@ A data frame with 800 rows and 3 columns:
 data(qr_tar_cov)
 }
 \description{
-This dataset contains phenotype for the outcome information for individuals in the target dataset,
-including various confounders as a quantitative outcome of the covariate.
+This dataset contains phenotype for the outcome information of individuals in the target dataset.
 }
 \keyword{datasets}

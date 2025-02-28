@@ -16,7 +16,6 @@ A data frame with 800 rows and 3 columns:
 data(br_dis_cov)
 }
 \description{
-This dataset contains phenotype for the outcome information for individuals in the discovery dataset,
-for a binary exposure as a binary outcome in the reverse direction.
+This dataset contains phenotype for the outcome information of individuals in the discovery dataset.
 }
 \keyword{datasets}

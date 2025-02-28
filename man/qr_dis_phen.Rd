@@ -3,7 +3,7 @@
 \docType{data}
 \name{qr_dis_phen}
 \alias{qr_dis_phen}
-\title{Covariate data File for discovery dataset of the outcome as quantitative covariate phenotype for the reverse direction.}
+\title{A phenotype data file from the discovery dataset, containing the quantitative outcome treated as an exposure for the reverse direction.}
 \format{
 A data frame with 800 rows and 19 columns:
 \describe{
@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(qr_dis_phen)
 }
 \description{
-This dataset contains covariate information for individuals in the discovery dataset,
-including various confounders and the outcome phenotype as a quantitative covariate.
+This dataset contains covariate information of individuals in the discovery dataset,
+including various confounders.
 }
 \keyword{datasets}

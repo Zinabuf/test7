@@ -2,7 +2,7 @@
 % Please edit documentation in R/gcim_q.R
 \name{gcim_q}
 \alias{gcim_q}
-\title{Perform Regression Analysis for GCIM with quantitative outcome.}
+\title{Perform regression analysis for GCIM with quantitative outcome.}
 \usage{
 gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 }
@@ -23,5 +23,5 @@ gcim_q(qp_tar_phen, qp_tar_cov, Add_PRS, Int_PRS, Cov_PRS, confounders)
 Summary of the regression model.
 }
 \description{
-Perform Regression Analysis for GCIM with quantitative outcome.
+Perform regression analysis for GCIM with quantitative outcome.
 }

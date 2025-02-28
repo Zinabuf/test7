@@ -3,7 +3,7 @@
 \docType{data}
 \name{br_tar_cov}
 \alias{br_tar_cov}
-\title{A phenotype data file from the target dataset, containing the binary exposure treated as an oucome for the reverse direction of causation}
+\title{A phenotype data file from the target dataset, containing the binary exposure treated as an oucome for the reverse causal directions.}
 \format{
 A data frame with 800 rows and 3 columns:
 \describe{
@@ -16,7 +16,6 @@ A data frame with 800 rows and 3 columns:
 data(br_tar_cov)
 }
 \description{
-This dataset contains phenotype data for the outcome information for individuals in the target dataset,
-for a binary outcome as a binary outcome in the reverse directions of causations.
+This dataset contains phenotype data for the outcome information of individuals in the target dataset,
 }
 \keyword{datasets}

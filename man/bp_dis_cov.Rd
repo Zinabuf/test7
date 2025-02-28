@@ -19,7 +19,7 @@ A data frame with 800 rows and 19 columns:
 data(bp_dis_cov)
 }
 \description{
-This dataset contains covariate information for individuals in the discovery dataset,
-including various confounders for a binary outcome.
+This dataset contains covariate  for a binary outcome information of individuals in the discovery dataset,
+including various confounders.
 }
 \keyword{datasets}
