@@ -1,8 +1,7 @@
-
-#' Covariate data File for discovery dataset of the outcome as quantitative covariate phenotype for the reverse direction. 
+#' A phenotype data file from the discovery dataset, containing the quantitative outcome treated as an exposure for the reverse direction.
 #'
-#' This dataset contains covariate information for individuals in the discovery dataset,
-#' including various confounders and the outcome phenotype as a quantitative covariate. 
+#' This dataset contains covariate information of individuals in the discovery dataset,
+#' including various confounders. 
 #'
 #' @format A data frame with 800 rows and 19 columns:
 #' \describe{

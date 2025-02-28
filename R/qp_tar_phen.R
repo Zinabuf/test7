@@ -1,7 +1,6 @@
-#' Covariate Data File for target Dataset with Binary Outcomes
+#' A phenotype data from the target dataset containing quantitative phenotype trated as outcome for the proposed causal directions. 
 #'
-#' This dataset contains phenotype for the outcome information for individuals in the target dataset,
-#' including various confounders for a quantitative outcome.
+#' This dataset contains phenotype for the outcome information of individuals in the target dataset.
 #'
 #' @format A data frame with 800 rows and 3 columns:
 #' \describe{

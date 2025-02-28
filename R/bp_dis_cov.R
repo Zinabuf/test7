@@ -1,7 +1,7 @@
 #' A phenotype data from the discovery dataset containing binary phenotype trated as exposure for the proposed causal directions. 
 #'
-#' This dataset contains covariate information for individuals in the discovery dataset,
-#' including various confounders for a binary outcome.
+#' This dataset contains covariate  for a binary outcome information of individuals in the discovery dataset,
+#' including various confounders.
 #'
 #' @format A data frame with 800 rows and 19 columns:
 #' \describe{

@@ -1,8 +1,6 @@
-
-#' Covariate Data File for Discovery Dataset with Binary Outcomes
+#'  A phenotype data from the discovery dataset containing quantitative phenotype trated as an outcome for the proposed causal directions. 
 #'
-#' This dataset contains phenotype for the outcome information for individuals in the discovery dataset,
-#' including various confounders for a quantitative outcome.
+#' This dataset contains phenotype for the outcome information of individuals in the discovery dataset,
 #'
 #' @format A data frame with 800 rows and 3 columns:
 #' \describe{

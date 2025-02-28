@@ -1,4 +1,4 @@
-#' Perform GWAS for covariates.
+#' Perform GWAS for quantitative covariates.
 #'
 #' @param plink_path Path to the PLINK executable application.
 #' @param dis_snp Prefix for binary files for the discovery dataset.

@@ -1,9 +1,6 @@
-
 #' A phenotype data file from the discovery dataset, containing the binary exposure treated as binary outcomes for the reverse direction.
-
 #'
-#' This dataset contains phenotype for the outcome information for individuals in the discovery dataset,
-#'  for a binary exposure as a binary outcome in the reverse direction.
+#' This dataset contains phenotype for the outcome information of individuals in the discovery dataset.
 #'
 #' @format A data frame with 800 rows and 3 columns:
 #' \describe{

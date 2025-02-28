@@ -1,4 +1,4 @@
-#' Perform Regression Analysis for GCIM with quantitative outcome.
+#' Perform regression analysis for GCIM with quantitative outcome.
 #'
 #' @param bp_tar_phen File path for the target phenotype data.
 #' @param bp_tar_cov File path for the target covariate data.

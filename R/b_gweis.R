@@ -1,4 +1,4 @@
-#' Perform GWEIS for binary outcome and exposure variables.
+#' Perform GWEIS for binary outcome variables.
 #'
 #' This function performs genome-wide-by-environemnt interaction studies (GWEIS) and processes the results
 #' to generate files for downstream analysis.

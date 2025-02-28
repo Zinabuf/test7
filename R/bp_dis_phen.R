@@ -1,8 +1,6 @@
-
 #' A phenotype data from the discovery dataset containing binary phenotype trated as an outcome for the proposed causal directions.
 #'
-#' This dataset contains phenotype for the outcome information for individuals in the discovery dataset,
-#'  for a binary outcome treated as a binary outcome for the proposed causal diections. 
+#' This dataset contains phenotype for the outcome information of individuals in the discovery dataset. 
 #'
 #' @format A data frame with 800 rows and 3 columns:
 #' \describe{

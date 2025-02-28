@@ -1,4 +1,4 @@
-#' Perform GWEIS for quantitative outcome and quantitative exposure variables.
+#' Perform GWEIS for quantitative outcome variables.
 #'
 #' This function performs genome-wide interaction studies (GWEIS) and processes the results
 #' to generate files for downstream analysis.

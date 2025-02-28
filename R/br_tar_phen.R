@@ -1,8 +1,7 @@
-
-#' A phenotype data file from target dataset, containing a binary outcome treated as a binary exposure in the reverse direction of causations
+#' A phenotype data file from target dataset, containing a binary outcome treated as a binary exposure in the reverse causal directions.
 #'
-#' This dataset contains phenotypic data for the covariate information for individuals in the target dataset,
-#'  for a binary phenotype for the outcome, which is treated as a binary exposure and covariates .
+#' This dataset contains phenotypic data for the covariate information of individuals in the target dataset,
+#'  including various confounders.
 #'
 #' @format A data frame with 800 rows and 19 columns:
 #' \describe{

@@ -1,8 +1,7 @@
-
-#' Covariate Data File for Discovery Dataset with Binary phenotype
+#'  A phenotype data from the target dataset containing quantitative phenotype trated as exposure for the proposed causal directions. 
 #'
-#' This dataset contains covariate information for individuals in the target dataset,
-#' including various confounders for a quantitative phenotype for the outcome.
+#' This dataset contains covariate information of individuals in the target dataset,
+#' including various confounders.
 #'
 #' @format A data frame with 800 rows and 19 columns:
 #' \describe{
