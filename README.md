@@ -37,7 +37,7 @@ Specify the plink file prefix, which reduces error in R
 
 ~~~
 dis_snp <- system.file("data", "dis_snp", package = "GCIM")
-dis_snp <- system.file("data", "tar_snp", package = "GCIM")
+tar_snp <- system.file("data", "tar_snp", package = "GCIM")
 ~~~
  Specifying **inst** directories
 
