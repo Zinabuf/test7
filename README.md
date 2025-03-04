@@ -33,13 +33,41 @@ GCIM analysis uses PLink2 to analyze discovery data, and the package is compatib
 plink_path <- "<plink_path>/plink2"
 ~~~
 
-Specify the plink file prefix, which reduce eror in R
+Specify the plink file prefix, which reduces error in R
 
 ~~~
 dis_snp <- system.file("data", "dis_snp", package = "GCIM")
 dis_snp <- system.file("data", "tar_snp", package = "GCIM")
 ~~~
+ Specifying **inst** directories
 
+ ~~~
+ inst_path <- system.file(package = "GCIM") 
+~~~
+
+Inst files are available in the directories
+
+~~~
+inst_path <- system.file(package = "GCIM") 
+bp_dis_cov <- paste0(inst_path, "bp_dis_cov.txt")
+bp_dis_phen <- paste0(inst_path, "/bp_dis_phen.txt")
+bp_tar_cov <- paste0(inst_path, "/bp_tar_cov.txt")
+bp_tar_phen <- paste0(inst_path, "/bp_tar_phen.txt")
+br_dis_cov <- paste0(inst_path, "/br_dis_cov.txt")
+br_dis_phen <- paste0(inst_path, "/br_dis_phen.txt")
+br_tar_cov <- paste0(inst_path, "/br_tar_cov.txt")
+br_tar_phen <- paste0(inst_path, "/br_tar_phen.txt")
+qp_dis_cov <- paste0(inst_path, "/qp_dis_cov.txt")
+qp_dis_phen <- paste0(inst_path, "/qp_dis_phen.txt")
+qp_tar_cov <- paste0(inst_path, "/qp_tar_cov.txt")
+qp_tar_phen <- paste0(inst_path, "/qp_tar_phen.txt")
+qr_dis_cov <- paste0(inst_path, "/qr_dis_cov.txt")
+qr_dis_phen <- paste0(inst_path, "/qr_dis_phen.txt")
+qr_tar_cov <- paste0(inst_path, "/qr_tar_cov.txt")
+qr_tar_phen <- paste0(inst_path, "/qr_tar_phen.txt")
+dis_snp <- paste0(inst_path, "/dis_snp")
+tar_snp <- paste0(inst_path, "/dis_snp")
+~~~
 Set the proposed directions and the reverse direction based on the type of outcome variables. Depending on the type of outcome variable, whether binary or quantitative, step-by-step tests can be conducted as a one-time process for one-direction tests.
 for instance, if you have a binary outcome with a quantitative exposure variable do the following steps.
 
