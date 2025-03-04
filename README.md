@@ -33,6 +33,13 @@ GCIM analysis uses PLink2 to analyze discovery data, and the package is compatib
 plink_path <- "<plink_path>/plink2"
 ~~~
 
+Specify the plink file prefix, which reduce eror in R
+
+~~~
+dis_snp <- system.file("data", "dis_snp", package = "GCIM")
+dis_snp <- system.file("data", "tar_snp", package = "GCIM")
+~~~
+
 Set the proposed directions and the reverse direction based on the type of outcome variables. Depending on the type of outcome variable, whether binary or quantitative, step-by-step tests can be conducted as a one-time process for one-direction tests.
 for instance, if you have a binary outcome with a quantitative exposure variable do the following steps.
 
